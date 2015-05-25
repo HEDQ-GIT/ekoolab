@@ -56,6 +56,6 @@
 	@yield('content')
 
 	<!-- Scripts -->
-	<script src="{{ asset('/js/vendor.js') }}"></script>
+	<script src="{{ asset('/js/vendor.min.js') }}"></script>
 </body>
 </html>
