@@ -7,14 +7,14 @@ return array(
 	 *
 	 * @type string
 	 */
-	'uri' => 'admin',
+	'uri' => 'ekoo-admin',
 
 	/**
 	 * Page title
 	 *
 	 * @type string
 	 */
-	'title' => 'TangLong',
+	'title' => 'ekoolab',
 
 	/**
 	 * The path to your model config directory
@@ -51,7 +51,7 @@ return array(
 	 * 		'Analytics' => array('E-Commerce' => 'page.ecommerce.analytics'),
 	 *	)
 	 */
-	'menu' => array('Promotions'),
+	'menu' => array('Articles', 'Users', 'Tags'),
 
 	/**
 	 * The permission option is the highest-level authentication check that lets you define a closure that should return true if the current user
@@ -62,7 +62,7 @@ return array(
 	'permission'=> function()
 	{
 		return Auth::check();
-//		return true;
+//		return false;
 	},
 
 	/**
@@ -85,7 +85,7 @@ return array(
 	 *
 	 * @type string
 	 */
-	'home_page' => 'Promotions',
+	'home_page' => 'Articles',
 
 	/**
 	 * The route to which the user will be taken when they click the "back to site" button
