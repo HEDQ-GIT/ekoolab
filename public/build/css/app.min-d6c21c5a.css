@@ -1,0 +1,110 @@
+body,
+label,
+.checkbox label {
+  font-weight: 300;
+}
+#services-dropdown li:hover {
+  background: #ff7043;
+}
+.nav-wrapper a {
+  text-transform: uppercase;
+}
+#video-con #video-col {
+  padding: 0;
+  position: relative;
+}
+#video-con #cover-col {
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0.5;
+  height: 99.3%;
+  width: 100%;
+  margin-top: 0;
+}
+#paper {
+  font-size: 1.8em;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+.card {
+  padding: 5%;
+}
+.card:hover {
+  border-radius: 10px;
+  background: #ff8a65;
+}
+.card:hover p {
+  opacity: 1;
+  transition: all ease 0.6s;
+}
+.card:hover h6 {
+  -webkit-transform: translateY(0%);
+      -ms-transform: translateY(0%);
+          transform: translateY(0%);
+  font-size: 20px;
+  transition: all ease 0.3s;
+}
+.circle {
+  position: relative;
+  border-radius: 50%;
+  background-color: #f7f7f7;
+  width: 155px;
+  height: 155px;
+  margin: 0 auto;
+}
+.circle a {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin-left: -60px;
+  margin-top: -55px;
+  width: 120px;
+  height: 110px;
+  display: block;
+  background: url(/img/sprite-services-icons.png) no-repeat -4px -3px;
+}
+.card-content {
+  padding-top: 20px auto 10px;
+}
+.card-content h6 {
+  -webkit-transform: translateY(200%);
+      -ms-transform: translateY(200%);
+          transform: translateY(200%);
+  font-size: 25px;
+}
+.card-content p {
+  margin: 0 auto;
+  opacity: 0;
+}
+.slider {
+  margin-top: 20px;
+  height: 660px;
+}
+.slider .slides {
+  height: 600px;
+}
+.more {
+  border-radius: 5px;
+  margin-top: -30px;
+}
+#clients .col {
+  padding: 0;
+  border: none;
+  border-radius: 0;
+}
+#clients .card {
+  padding: 0;
+  margin: 0;
+  border: none;
+  border-radius: 0;
+}
+.clickable {
+  padding: 0 1rem;
+}
+.clickable:hover {
+  cursor: pointer;
+}
+#footer {
+  margin-top: 30px;
+}
