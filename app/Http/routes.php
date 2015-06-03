@@ -20,3 +20,5 @@ Route::controllers([
 ]);
 
 get('/', 'EkoolabController@index');
+get('test', 'EkoolabController@test');
+

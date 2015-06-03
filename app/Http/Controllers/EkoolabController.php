@@ -12,4 +12,9 @@ class EkoolabController extends Controller {
         return view('ekoolab.index');
 	}
 
+    public function test()
+    {
+        return view('ekoolab.test');
+
+    }
 }

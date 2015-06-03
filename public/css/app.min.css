@@ -9,35 +9,17 @@ label,
 .nav-wrapper a {
   text-transform: uppercase;
 }
-.content-full {
-  padding: 0;
-  width: 100%;
-  max-width: none;
-}
-.content-part {
-  padding: 0;
-  width: 80%;
-}
-#video-con {
-  position: relative;
-}
-#video-con #video-row {
-  margin: 0;
-  height: 680px;
-  overflow: hidden;
-}
 #video-con #video-col {
   padding: 0;
+  position: relative;
 }
-#video-con #cover-row {
-  margin: 0;
-}
-#video-con #cover-row #cover-col {
+#video-con #cover-col {
   position: absolute;
   top: 0;
   left: 0;
   opacity: 0.5;
-  height: 680px;
+  height: 99.3%;
+  width: 100%;
   margin-top: 0;
 }
 #paper {
@@ -45,16 +27,23 @@ label,
   font-weight: bold;
   letter-spacing: 1px;
 }
-.thumbnail {
-  padding: 20px 15px;
+.card {
+  padding: 5%;
 }
-.thumbnail:hover {
+.card:hover {
   border-radius: 10px;
   background: #ff8a65;
 }
-.thumbnail:hover p {
+.card:hover p {
   opacity: 1;
-  transition: all ease 0.5s;
+  transition: all ease 0.6s;
+}
+.card:hover h6 {
+  -webkit-transform: translateY(0%);
+      -ms-transform: translateY(0%);
+          transform: translateY(0%);
+  font-size: 20px;
+  transition: all ease 0.3s;
 }
 .circle {
   position: relative;
@@ -76,10 +65,13 @@ label,
   background: url(/img/sprite-services-icons.png) no-repeat -4px -3px;
 }
 .card-content {
-  padding-top: 20px;
+  padding-top: 20px auto 10px;
 }
-.card-content span {
-  margin: 15px auto;
+.card-content h6 {
+  -webkit-transform: translateY(200%);
+      -ms-transform: translateY(200%);
+          transform: translateY(200%);
+  font-size: 25px;
 }
 .card-content p {
   margin: 0 auto;
@@ -96,15 +88,16 @@ label,
   border-radius: 5px;
   margin-top: -30px;
 }
-#clients .row {
-  margin-bottom: 0;
+#clients .col {
+  padding: 0;
+  border: none;
+  border-radius: 0;
 }
-.border-b {
-  border-bottom: 1px solid #eeeeee;
-}
-.border-rb {
-  border-bottom: 1px solid #eeeeee;
-  border-right: 1px solid #eeeeee;
+#clients .card {
+  padding: 0;
+  margin: 0;
+  border: none;
+  border-radius: 0;
 }
 .clickable {
   padding: 0 1rem;
